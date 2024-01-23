@@ -3510,3 +3510,15 @@ input, select, textarea {
 			}
 
 	}
+
+
+
+	#technologies-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	#technologies-container img {
+		height: 150px;
+	}
