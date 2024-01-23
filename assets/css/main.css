@@ -374,7 +374,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 100%;
 		}
 
 		.row > .off-6 {
@@ -3509,14 +3509,22 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+			#technologies-container {
+				display: flex;
+				flex-direction: row;
+				flex-wrap: wrap;
+				width: 100%;
+			}
 	}
 
 
 
 	#technologies-container {
+		position: sticky;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		width: 100%;
 	}
 
 	#technologies-container img {
