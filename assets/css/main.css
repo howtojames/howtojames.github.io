@@ -3571,3 +3571,18 @@ input, select, textarea {
 	margin-top: 30px;
 	width: 30%;
 } */
+
+
+
+#education-image-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+#education-image {
+	height: 210px;
+	width: 210px;
+	margin-bottom: 20px;
+}
