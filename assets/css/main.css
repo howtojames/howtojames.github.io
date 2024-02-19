@@ -3530,3 +3530,8 @@ input, select, textarea {
 	#technologies-container img {
 		height: 150px;
 	}
+
+
+	#view-my-resume {
+		margin-bottom: 50px;
+	}
