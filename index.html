@@ -32,8 +32,9 @@
 		<!-- One -->
 			<section id="one" class="main style1">
 				<div class="container">
-					<div id="about-container" class="row gtr-150">
-						<div id="about-left" class="col-6 col-12-medium">
+					<!-- row than col-6 -->
+					<div id="about-container"class="row gtr-150">
+						<div class="col-6-about-left col-12-medium">
 							<header class="major">
 								<h2>About Me</h2>
 							</header>
@@ -41,31 +42,72 @@
 								Hello, my name is James. I am a software engineer with a background in applied math and computer science. I overcame many challenges along my journey in college and in App Academy. This journey shaped my resilience and will to never give up, setting the tone for my path into software engineering. The switch happened when I recognized the field's demand for consistent organization and preparation, which aligns with my values for work ethic. At App Academy, I developed important technical skills such as React and Redux, backend frameworks such as Express and Flask, and git workflow in a team environment.
 							</p>
 							<p>
-								Alongside these, my adaptability, ability to meet deadlines, and a passion for improvement stands out. Enjoying the process of planning page layouts and producing them in code, I take pride in my capstone project, which blends all of my cumulative technical knowledge with a touch of creativity. I'm on the lookout for opportunities with companies using technologies I’m familiar with such as React, javascript, and python, and I’m also eager to learn new ones. Beyond tech, my interest lies in self-growth, which seamlessly compliments my professional career, creating a feedback relationship that enriches both my work and life.
+								Alongside these, my adaptability and passion for improvement stands out. Enjoying the process of planning page layouts and producing them in code, I take pride in my capstone project, which blends all of my cumulative technical knowledge with a touch of creativity. I'm on the lookout for opportunities with companies using technologies I’m familiar with such as React, javascript, and python, and I’m also eager to learn new ones. Beyond tech, my interest lies in self-growth, which seamlessly compliments my professional career, creating a feedback relationship that enriches both my work and life.
 							</p>
 						</div>
 
-						<div id="about-right" class="col-6 col-12-medium imp-medium">
+						<div id="about-right" class="col-6-about-right col-12-medium imp-medium">
 							<span class="image fit"><img id="profile-image"src="images/profile-picture-square.jpg" alt="" /></span>
 						</div>
 					</div>
 				</div>
 			</section>
 
+		<!-- Three -->
+		<section id="three" class="main style2 special">
+			<div class="container">
+				<header class="major">
+					<h2>Projects</h2>
+				</header>
+				<!-- <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p> -->
+				<div class="row gtr-150">
+					<div class="col-4 col-12-medium">
+						<span class="image fit"><img height="190px" src="images/airbnb.png" alt="home-Bnb" /></span>
+						<h3>Home-Bnb</h3>
+						<p>Leveraged the Node framework Express to create a server to handle CRUD operations, including data storage, retrieval, and deletion for home-bnb users and spots in the database.</p>
+						<ul class="actions special">
+							<li><a href="https://james-travelbnb.onrender.com/" class="button">Link</a></li>
+						</ul>
+					</div>
+					<div class="col-4 col-12-medium">
+						<span class="image fit"><img height="190px" src="images/codera.png" alt="Codera" /></span>
+						<h3>Codera</h3>
+						<p>Efficiently created database using SQLAlchemy to streamline database management, enabling effective database structure for seeding, inserting and deleting data.</p>
+						<ul class="actions special">
+							<li><a href="https://codera-webservice-0na2.onrender.com" class="button">Link</a></li>
+						</ul>
+					</div>
+					<div class="col-4 col-12-medium">
+						<span class="image fit"><img height="190px" src="images/squareforce.png" alt="SquareForce" /></span>
+						<h3>SquareForce</h3>
+						<p>Implemented AWS S3 bucket and upload functionality by integrating it with the Flask server's API routes, enabling smooth image uploads directly into the live database.</p>
+						<ul class="actions special">
+							<li><a href="https://james-squareforce.onrender.com" class="button">Link</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- Two -->
-			<section id="two" class="main style2">
+			<section id="two" class="main style1">
 				<div class="container">
 					<div class="row gtr-15">
-						<div class="col-6 col-12-medium">
+						<div class="col-6-technology col-12-medium">
 							<h2>Technologies:</h2>
 							<ul class="" id="technologies-container">
+								<!-- https://vecta.io/symbols/25/web-technologies -->
 								<img src="/images/javascript.png" />
 								<img src="/images/css3.png" />
 								<img src="/images/html5.png" />
 								<img src="/images/react.png" />
 								<img src="/images/redux.png" />
 								<img src="/images/python.png" />
+
+								<!-- <img src="/images/sqlite.png" /> -->
 								<img src="/images/postgresql.png" />
+								<img src="/images/docker.png" />
+								<img src="/images/aws.webp" />
 							</ul>
 						</div>
 						<!-- <div class="col-6 col-12-medium">
@@ -81,41 +123,7 @@
 				</div>
 			</section>
 
-		<!-- Three -->
-			<section id="three" class="main style1 special">
-				<div class="container">
-					<header class="major">
-						<h2>Projects</h2>
-					</header>
-					<!-- <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p> -->
-					<div class="row gtr-150">
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img height="190px" src="images/airbnb.png" alt="home-Bnb" /></span>
-							<h3>home-Bnb</h3>
-							<p>Leveraged the Node framework Express to create a server to handle CRUD operations, including data storage, retrieval, and deletion for home-bnb users and spots in the database.</p>
-							<ul class="actions special">
-								<li><a href="https://james-travelbnb.onrender.com/" class="button">Link</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img height="190px" src="images/codera.png" alt="Codera" /></span>
-							<h3>Codera</h3>
-							<p>Efficiently created database using SQLAlchemy to streamline database management, enabling effective database structure for seeding, inserting and deleting data.</p>
-							<ul class="actions special">
-								<li><a href="https://codera-webservice-0na2.onrender.com" class="button">Link</a></li>
-							</ul>
-						</div>
-						<div class="col-4 col-12-medium">
-							<span class="image fit"><img height="190px" src="images/squareforce.png" alt="SquareForce" /></span>
-							<h3>SquareForce</h3>
-							<p>Implemented AWS S3 bucket and upload functionality by integrating it with the Flask server's API routes, enabling smooth image uploads directly into the live database.</p>
-							<ul class="actions special">
-								<li><a href="https://james-squareforce.onrender.com" class="button">Link</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</section>
+
 
 		<!-- Four -->
 			<!-- <section id="four" class="main style2 special">

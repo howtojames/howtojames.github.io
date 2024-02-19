@@ -377,6 +377,22 @@ input, select, textarea {
 		.row > .col-6 {
 			width: 50%;
 		}
+		/* added */
+		.row > .col-6-about-left {
+			width: 68%;
+		}
+		.row > .col-6-about-right {
+			margin: auto auto;
+			width: 30%;
+		}
+		.row > .col-6-technology {
+			width: 100%;
+		}
+
+
+		.about-left > .col-6 {
+			width: 70%;
+		}
 
 		.row > .off-6 {
 			margin-left: 50%;
