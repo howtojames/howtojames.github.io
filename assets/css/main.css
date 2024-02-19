@@ -373,8 +373,9 @@ input, select, textarea {
 			margin-left: 41.66667%;
 		}
 
+		/* changed, removed all col-6 class width */
 		.row > .col-6 {
-			width: 100%;
+			width: 50%;
 		}
 
 		.row > .off-6 {
@@ -3509,29 +3510,48 @@ input, select, textarea {
 				padding: 2em 1em 2em 1em ;
 			}
 
+			/* added */
 			#technologies-container {
 				display: flex;
 				flex-direction: row;
 				flex-wrap: wrap;
 				width: 100%;
 			}
+
 	}
 
 
+#technologies-container {
+	position: sticky;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
 
-	#technologies-container {
-		position: sticky;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		width: 100%;
-	}
-
-	#technologies-container img {
-		height: 150px;
-	}
+#technologies-container img {
+	height: 150px;
+}
 
 
-	#view-my-resume {
-		margin-bottom: 50px;
-	}
+#view-my-resume {
+	margin-bottom: 50px;
+}
+
+/* #profile-image {
+	height: 350px;
+	width: 350px;
+} */
+
+
+/* #about-container {
+	display: flex;
+	flex-direction: row;
+}
+#about-left{
+	width: 70%;
+}
+#about-right {
+	margin-top: 30px;
+	width: 30%;
+} */

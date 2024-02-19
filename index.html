@@ -32,8 +32,8 @@
 		<!-- One -->
 			<section id="one" class="main style1">
 				<div class="container">
-					<div class="row gtr-150">
-						<div class="col-6 col-12-medium">
+					<div id="about-container" class="row gtr-150">
+						<div id="about-left" class="col-6 col-12-medium">
 							<header class="major">
 								<h2>About Me</h2>
 							</header>
@@ -44,9 +44,10 @@
 								Alongside these, my adaptability, ability to meet deadlines, and a passion for improvement stands out. Enjoying the process of planning page layouts and producing them in code, I take pride in my capstone project, which blends all of my cumulative technical knowledge with a touch of creativity. I'm on the lookout for opportunities with companies using technologies I’m familiar with such as React, javascript, and python, and I’m also eager to learn new ones. Beyond tech, my interest lies in self-growth, which seamlessly compliments my professional career, creating a feedback relationship that enriches both my work and life.
 							</p>
 						</div>
-						<!-- <div class="col-6 col-12-medium imp-medium">
-							<span class="image fit"><img src="images/pic01.jpg" alt="" /></span>
-						</div> -->
+
+						<div id="about-right" class="col-6 col-12-medium imp-medium">
+							<span class="image fit"><img id="profile-image"src="images/profile-picture-square.jpg" alt="" /></span>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -91,7 +92,7 @@
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img height="190px" src="images/airbnb.png" alt="home-Bnb" /></span>
 							<h3>home-Bnb</h3>
-							<!-- <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p> -->
+							<p>Leveraged the Node framework Express to create a server to handle CRUD operations, including data storage, retrieval, and deletion for home-bnb users and spots in the database.</p>
 							<ul class="actions special">
 								<li><a href="https://james-travelbnb.onrender.com/" class="button">Link</a></li>
 							</ul>
@@ -99,7 +100,7 @@
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img height="190px" src="images/codera.png" alt="Codera" /></span>
 							<h3>Codera</h3>
-							<!-- <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p> -->
+							<p>Efficiently created database using SQLAlchemy to streamline database management, enabling effective database structure for seeding, inserting and deleting data.</p>
 							<ul class="actions special">
 								<li><a href="https://codera-webservice-0na2.onrender.com" class="button">Link</a></li>
 							</ul>
@@ -107,7 +108,7 @@
 						<div class="col-4 col-12-medium">
 							<span class="image fit"><img height="190px" src="images/squareforce.png" alt="SquareForce" /></span>
 							<h3>SquareForce</h3>
-							<!-- <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p> -->
+							<p>Implemented AWS S3 bucket and upload functionality by integrating it with the Flask server's API routes, enabling smooth image uploads directly into the live database.</p>
 							<ul class="actions special">
 								<li><a href="https://james-squareforce.onrender.com" class="button">Link</a></li>
 							</ul>
@@ -450,11 +451,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Footer -->
 			<section id="footer">
-				<!-- <a id="view-my-resume" href="files/james_ruan_resume">View my Resume</a> -->
+
 
 				<ul class="icons">
 					<li><a href="https://github.com/howtojames"class="label">*GitHub</a></li>
 					<li><a href="https://www.linkedin.com/in/james-ruan-03b95b104/">*Linkedin</a></li>
+					<li><a id="view-my-resume" href="https://docs.google.com/document/d/1IKi4S8Kqtt58XKKEJIRA45lQUEGQft8EFDbuABwR-2U/edit?usp=sharing">*Resume</a></li>
 					<li><span class="">Email: jrjamesruan@gmail.com</span></li>
 				</ul>
 				<ul class="copyright">
